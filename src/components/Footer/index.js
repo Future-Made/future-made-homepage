@@ -97,7 +97,12 @@ const Footer = ({ t }) => {
                     id="select-lang"
                   >
                     <option value="en">English</option>
+                    <option value="de">Deutsche</option>
                     <option value="es">Español</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="it">Italiana</option>
+                    <option value="fr">Française</option>
+
                   </S.LangSelect>
                 </S.Select>
               </Col>
