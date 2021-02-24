@@ -78,7 +78,7 @@ const Home = () => {
         type="left"
         title={DemandOnAir.title}
         content={DemandOnAir.text}
-        icon="impact-oriented-demand_annotated_240.svg"
+        icon="impact-oriented-demand_annotated.svg"
         id="demand_on_air"
       />
 
