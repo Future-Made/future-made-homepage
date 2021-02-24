@@ -31,23 +31,49 @@ const Header = ({ t }) => {
     };
     return (
       <Fragment>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <S.Span>{t("About")}</S.Span>
-        </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
-        </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <S.Span>{t("Product")}</S.Span>
-        </S.CustomNavLinkSmall>
+        {/* <S.CustomNavLinkSmall onClick={() => scrollTo("expression_of_demand")}>
+                    <S.Span>{t("demand-aware framework")}</S.Span>
+
+        </S.CustomNavLinkSmall> */}
+
         <S.CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          style={{ width: "160px" }}
+          onClick={() => scrollTo("expression_of_demand")}
         >
           <S.Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{t("expression of demand")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
+
+        <S.CustomNavLinkSmall
+          style={{ width: "160px" }}
+          onClick={() => scrollTo("demand_on_air")}
+        >
+          <S.Span>
+            <Button>{t("demand on air")}</Button>
+          </S.Span>
+        </S.CustomNavLinkSmall>
+
+        
+        <S.CustomNavLinkSmall
+          style={{ width: "160px" }}
+          onClick={() => scrollTo("discovery_of_collective_demand")}
+        >
+          <S.Span>
+            <Button>{t("discovery of collective demand")}</Button>
+          </S.Span>
+        </S.CustomNavLinkSmall>
+
+        
+        <S.CustomNavLinkSmall
+          style={{ width: "160px" }}
+          onClick={() => scrollTo("donation_as_precondition")}
+        >
+          <S.Span>
+            <Button>{t("donation as precondition")}</Button>
+          </S.Span>
+        </S.CustomNavLinkSmall>
+
       </Fragment>
     );
   };
@@ -57,7 +83,7 @@ const Header = ({ t }) => {
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" />
+            <SvgIcon src="future_made_logo.svg" />
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />

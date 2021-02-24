@@ -35,58 +35,59 @@ const Footer = ({ t }) => {
           <Container>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Language>{t("Contact")}</S.Language>
-                <S.Large to="/">{t("Tell us everything")}</S.Large>
+                <S.Language>{t("Join us")}</S.Language>
+                <S.Large to="/">{t("Come, as you are")}</S.Large>
                 <S.Para>
                   {t(
-                    `Do you have any question regarding the project? Feel free to reach out.`
+                    ``
                   )}
                 </S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
-                  <S.Chat>{t(`Let's Chat`)}</S.Chat>
+                <a href="mailto:future.made@offsetmovement.org">
+                  <S.Chat>{t(`email: future.made@offsetmovement.org`)}</S.Chat>
                 </a>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("Policy")}</S.Title>
-                <S.Large to="/" left="true">
-                  {t("Application Security")}
-                </S.Large>
+                <S.Title>{t("philosophy")}</S.Title>
                 <S.Large left="true" to="/">
-                  {t("Software Principles")}
+                  {t("Impact Orientation")}
+                </S.Large>
+                <S.Large to="/" left="true">
+                  {t("Demand Augmentation")}
+                </S.Large>
+                <S.Large to="/" left="true">
+                  {t("Universal Basic Experiences")}
                 </S.Large>
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Empty />
-                <S.Large left="true" to="/">
-                  {t("Support Center")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("Customer Support")}
-                </S.Large>
+           
+              
               </Col>
             </Row>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
-                <S.Language>{t("ADDRESS")}</S.Language>
-                <S.Para>Rancho Santa Margarita</S.Para>
-                <S.Para>2131 Elk Street</S.Para>
-                <S.Para>California</S.Para>
+                <S.Language>{t("LOCATION")}</S.Language>
+                <S.Para>decentralised @ planet Earth</S.Para>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("Company")}</S.Title>
+                <S.Title>{t("Collective")}</S.Title>
                 <S.Large left="true" to="/">
-                  {t("About")}
+                  {t("collaborators")}
                 </S.Large>
                 <S.Large left="true" to="/">
-                  {t("Blog")}
+                  {t("blog")}
                 </S.Large>
                 <S.Large left="true" to="/">
-                  {t("Press")}
+                  {t("workspace")}
                 </S.Large>
                 <S.Large left="true" to="/">
-                  {t("Careers & Culture")}
+                  {t("source code")}
                 </S.Large>
+                <S.Large left="true" to="/">
+                  {t("resources")}
+                </S.Large>
+               
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
@@ -120,32 +121,25 @@ const Footer = ({ t }) => {
               <S.NavLink to="/">
                 <S.LogoContainer>
                   <SvgIcon
-                    src="logo.svg"
+                    src="future_made_logo.svg"
                     aria-label="homepage"
-                    width="101px"
+                    width="64px"
                     height="64px"
                   />
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                  href="https://github.com/Future-Made"
                   src="github.svg"
                 />
                 <SocialLink
-                  href="https://twitter.com/Adrinlolx"
+                  href="https://twitter.com/made_future"
                   src="twitter.svg"
                 />
+
                 <SocialLink
-                  href="https://www.linkedin.com/in/lasha-kakabadze/"
-                  src="linkedin.svg"
-                />
-                <SocialLink
-                  href="https://github.com/Adrinlol/"
-                  src="instagram.svg"
-                />
-                <SocialLink
-                  href="https://medium.com/@lashakakabadze/"
+                  href="https://futuremade.blackblogs.org/"
                   src="medium.svg"
                 />
               </S.FooterContainer>

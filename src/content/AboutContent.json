@@ -1,15 +1,15 @@
 {
-  "title": "Light, Fast & Responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "If not now, then when?",
+  "text": "Attempting to extend Freedom of Expression with Expression of Demand, that is intended to be encouraged, empowered and enabled. It made quite a sense to use the current, unknown period ahead for the artists to observe and collect demands for their future on-site events, alternative to setting a place/date-time and price-tag, announcing it and trying to promote it via conventional methods. On the other hand, it is aimed to  We are all about incentivizing decision-making for audiences. ",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "",
+      "content": "We'd like to reduce the stress on the artists and help them sustain their efforts via making their events more accessible and inclusive to their audiences, as well as increasing their mobility, instead of their audiences.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "What's next?",
+      "content": "Next, is to apply this demand-aware framework for financially and politically independent journalism, science and promote reliable knowledge as in \"gigs for intellectuals\". It is not only facts, content, or commentary, but also to enable citizens of the world to demand public debates and Q&As of politicians and executives of corps.",
       "icon": "notes.svg"
     }
   ]

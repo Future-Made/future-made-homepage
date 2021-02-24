@@ -6,7 +6,7 @@ import SvgIcon from "../../../common/SvgIcon";
 
 import * as S from "./styles";
 
-const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
+const LeftContentBlock = ({ icon, title, content, content2, section, t, id }) => {
   return (
     <S.LeftContentBlock>
       <Row type="flex" justify="space-between" align="middle" id={id}>
@@ -25,6 +25,8 @@ const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
               <S.Content>{t(content)}</S.Content>
+              <S.Content>{t(content2)}</S.Content>
+
               <S.ServiceWrapper>
                 <Row type="flex" justify="space-between">
                   {section &&
@@ -35,6 +37,8 @@ const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
                           <SvgIcon src={item.icon} width="60px" height="60px" />
                           <S.MinTitle>{t(item.title)}</S.MinTitle>
                           <S.MinPara>{t(item.content)}</S.MinPara>
+                          <S.MinPara>{t(item.content2)}</S.MinPara>
+
                         </Col>
                       );
                     })}
