@@ -31,7 +31,6 @@ const Home = () => {
         first="true"
         title={IntroContent.title}
         content={IntroContent.text}
-        button={IntroContent.button}
         icon="developer.svg"
         id="intro"
       />
@@ -40,7 +39,7 @@ const Home = () => {
               title={ExpressionOfDemand.title}
               content={ExpressionOfDemand.text}
               section={ExpressionOfDemand.section}
-              icon="graphs.svg"
+              icon="waving.svg"
               id="expression_of_demand"
             />
 {/* 
