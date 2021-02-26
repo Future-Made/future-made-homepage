@@ -1,10 +1,13 @@
 import { lazy } from "react";
+import CookieConsent, { Cookies } from "react-cookie-consent";
+
 
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import Members from "../Members/index"
 
 // Theories for Change
 import ExpressionOfDemand from "../../content/theories_for_change/ExpressionOfDemand.json";
@@ -103,12 +106,25 @@ const Home = () => {
               id="donation_as_precondition"
             />
 
-
+<CookieConsent
+  location="bottom"
+  buttonText="roger that!"
+  cookieName="myAwesomeCookieName2"
+  style={{ background: "#2B373B" }}
+  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+  expires={150}
+>
+  Collaborators of this site use cookies to feed their appetites.{" "}
+  <span style={{ fontSize: "10px" }}>if you need more space, roger that.</span>
+</CookieConsent>
       {/* <ContactFrom
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
       /> */}
+
+    <h3>Collaborators</h3>
+  <Members/>
     </Container>
   );
 };
