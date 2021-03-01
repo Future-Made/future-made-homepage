@@ -7,7 +7,7 @@ import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ContactContent from "../../content/ContactContent.json";
-import Members from "../Members/index"
+import Members from "../Members/index";
 
 // Theories for Change
 import ExpressionOfDemand from "../../content/theories_for_change/ExpressionOfDemand.json";
@@ -113,8 +113,8 @@ const Home = () => {
   buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
   expires={150}
 >
-  Collaborators of this site use cookies to feed their appetites.{" "}
-  <span style={{ fontSize: "10px" }}>if you need more space, roger that.</span>
+  Collaborators of this site use actual cookies to feed their appetites.{" "}
+  <span style={{ fontSize: "10px" }}>hoping a clicking such buttons will not contribute to a classical conditioning or a future reflex.</span>
 </CookieConsent>
       {/* <ContactFrom
         title={ContactContent.title}
@@ -123,6 +123,12 @@ const Home = () => {
       /> */}
 
     <h3>Collaborators</h3>
+      <button>
+        <strong>we are shuffled (and honored)</strong>, each time
+         you visit us. apart from <strong>love, time</strong> is the only 
+        authority <strong> around here.</strong></button>
+        
+      <br></br>
   <Members/>
     </Container>
   );

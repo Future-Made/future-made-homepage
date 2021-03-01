@@ -106,8 +106,9 @@ const Members = () => {
     }
   ]
   return (
+    
     <CollaboratorsList
-    collaboratorsArray={collaboratorsArray}
+    collaboratorsArray={shuffle(collaboratorsArray)}
     listStyleObject={listStyleObject}
   >
     <CardComplete
@@ -117,5 +118,11 @@ const Members = () => {
   </CollaboratorsList>
   );
 };
+
+// everyday we are shuffling.
+function shuffle(collaboratorsArray) {
+  return collaboratorsArray.sort(() => Math.random() - 0.42);
+}
+
 
 export default Members;
