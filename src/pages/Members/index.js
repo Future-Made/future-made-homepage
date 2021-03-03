@@ -6,9 +6,9 @@ import { CardMinimal } from 'react-component-collaborators'
 const Members = () => {
 
   let listStyleObject = {
-    listWidth: '1200px',
+    listWidth: '1000px',
     listHeight: '600px',
-    direction: 'vertical',
+    direction: 'horizontal',
     listBackgroundColor: '#000'
   }
 

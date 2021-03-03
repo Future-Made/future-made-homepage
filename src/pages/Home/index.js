@@ -123,12 +123,12 @@ const Home = () => {
       /> */}
 
     <h3>Collaborators</h3>
-      <button>
-        <strong>we are shuffled (and honored)</strong>, each time
-         you visit us. apart from <strong>love, time</strong> is the only 
-        authority <strong> around here.</strong></button>
-        
-      <br></br>
+      
+        <strong>we are shuffled</strong>, <br></br>each time
+         you visit us. <br></br>
+         apart from <strong>love,</strong><br></br>
+         <strong>time</strong> is the only <br></br>
+        authority<br></br> <strong> around here.</strong> <br></br><br></br>
   <Members/>
     </Container>
   );

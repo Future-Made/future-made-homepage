@@ -5,6 +5,7 @@ import { withTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
 
 import * as S from "./styles";
+import { Route } from "react-router-dom";
 
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Container = lazy(() => import("../../common/Container"));
@@ -34,8 +35,51 @@ const Footer = ({ t }) => {
         <S.Footer>
           <Container>
             <Row type="flex" justify="space-between">
+             
+
+              <Col lg={8} md={8} sm={12} xs={24}>
+                <S.Title>{t("Work in progress")}</S.Title>
+
+                  <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
+                  target="_blank">co-op model</a>
+                <br></br>
+                                  
+                <a href="https://miro.com/app/board/o9J_lcIxk6U=/"
+                                  target="_blank">participatory design (iteration#1)</a>
+                            <br></br>
+
+                <a href="https://github.com/future-made"
+                      target="_blank">source code</a>
+                      <br></br>
+                  <a href="https://www.pearltrees.com/the_offset_movement"
+                      target="_blank">reading material</a>
+                      <br></br>
+                  <a href="https://offsetmovement.org"
+                      target="_blank">manifest/future projects (to be updated soon)</a>
+            
+            
+               
+              </Col>
+              {/* <Col lg={8} md={8} sm={12} xs={24}>
+                <S.Title>{t("philosophy")}</S.Title>
+                <S.Large left="true">
+                  {t("Impact Orientation")}
+                </S.Large>
+                <S.Large left="true">
+                  {t("Demand Augmentation")}
+                </S.Large>
+                <S.Large left="true">
+                  {t("Universal Basic Experiences")}
+                </S.Large>
+              </Col> */}
+              <Col lg={6} md={6} sm={12} xs={24}>
+                <S.Empty />
+           
+              
+              </Col>
+
               <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Language>{t("Join us")}</S.Language>
+                {/* <S.Language>{t("Join us")}</S.Language> */}
                 <S.Large to="/">{t("Come, as you are")}</S.Large>
                 <S.Para>
                   {t(
@@ -46,23 +90,6 @@ const Footer = ({ t }) => {
                   <S.Chat>{t(`email: future.made@offsetmovement.org`)}</S.Chat>
                 </a>
               </Col>
-              <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("philosophy")}</S.Title>
-                <S.Large left="true" to="/">
-                  {t("Impact Orientation")}
-                </S.Large>
-                <S.Large to="/" left="true">
-                  {t("Demand Augmentation")}
-                </S.Large>
-                <S.Large to="/" left="true">
-                  {t("Universal Basic Experiences")}
-                </S.Large>
-              </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Empty />
-           
-              
-              </Col>
             </Row>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
@@ -70,26 +97,8 @@ const Footer = ({ t }) => {
                 <S.Language>{t("LOCATION")}</S.Language>
                 <S.Para>decentralised @ planet Earth</S.Para>
               </Col>
-              <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("Collective")}</S.Title>
-                <S.Large left="true" to="/">
-                  {t("collaborators")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("blog")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("workspace")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("source code")}
-                </S.Large>
-                <S.Large left="true" to="/">
-                  {t("resources")}
-                </S.Large>
-               
-              </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
+             
+              {/* <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
                   <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
                   <S.LangSelect
@@ -106,7 +115,7 @@ const Footer = ({ t }) => {
 
                   </S.LangSelect>
                 </S.Select>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </S.Footer>
