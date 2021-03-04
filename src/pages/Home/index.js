@@ -93,9 +93,6 @@ const Home = () => {
         id="discovery_of_collective_demand"
       />
 
-
-{/* TODO: add "reflection around values" */}
-
 <ContentBlock
               type="left"
               title={DonationAsPrecondition.title}

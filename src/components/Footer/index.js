@@ -48,15 +48,19 @@ const Footer = ({ t }) => {
                                   target="_blank">participatory design (iteration#1)</a>
                             <br></br>
 
-                <a href="https://github.com/future-made"
-                      target="_blank">source code</a>
-                      <br></br>
+                  <a href="https://docs.google.com/presentation/d/1vHhyi8oaW5J4Td5IXJklP_yQTRXxO1XEdY2Rbwi-d2U/"
+                          target="_blank">proposal for "disinformation challenge"</a>
+                          <br></br>
                   <a href="https://www.pearltrees.com/the_offset_movement"
                       target="_blank">reading material</a>
                       <br></br>
                   <a href="https://offsetmovement.org"
-                      target="_blank">manifest/future projects (to be updated soon)</a>
-            
+                      target="_blank">futuristic manifest -- 2b updated</a>
+                     <br></br>
+
+                <a href="https://github.com/future-made"
+                      target="_blank">open source</a>
+                      <br></br>
             
                
               </Col>
@@ -77,25 +81,44 @@ const Footer = ({ t }) => {
            
               
               </Col>
-
               <Col lg={10} md={10} sm={12} xs={24}>
-                {/* <S.Language>{t("Join us")}</S.Language> */}
-                <S.Large to="/">{t("Come, as you are")}</S.Large>
+                <S.Language>{t("Come, as you are")}</S.Language>
+                <S.Large to="/">{t("")}</S.Large>
                 <S.Para>
                   {t(
-                    ``
+                    `future, made collective`
                   )}
                 </S.Para>
                 <a href="mailto:future.made@offsetmovement.org">
                   <S.Chat>{t(`email: future.made@offsetmovement.org`)}</S.Chat>
                 </a>
+              <Row>
+                <SocialLink
+                  href="https://github.com/Future-Made"
+                  src="github.svg"
+                />
+                <SocialLink
+                  href="https://twitter.com/made_future"
+                  src="twitter.svg"
+                />
+
+          
+              </Row>
               </Col>
+
             </Row>
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
                 <S.Language>{t("LOCATION")}</S.Language>
                 <S.Para>decentralised @ planet Earth</S.Para>
+              </Col>
+
+              <Col lg={10} md={10} sm={12} xs={24}>
+                <S.Empty />
+                <S.Language>{t("CREDITS")}</S.Language>
+                <S.Para>              <a href="https://github.com/Adrinlol/landy-react-template" target="_blank">landly.website<a ></a> by Lasha Kakabadze</a>
+</S.Para>
               </Col>
              
               {/* <Col lg={6} md={6} sm={12} xs={24}>
@@ -137,27 +160,23 @@ const Footer = ({ t }) => {
                   />
                 </S.LogoContainer>
               </S.NavLink>
-              <S.FooterContainer>
-                <SocialLink
-                  href="https://github.com/Future-Made"
-                  src="github.svg"
-                />
-                <SocialLink
-                  href="https://twitter.com/made_future"
-                  src="twitter.svg"
-                />
-
               <div
                 className="license"
                 dangerouslySetInnerHTML={{
                   __html: `
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />  &nbsp &nbsp This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />  &nbsp This work is licensed under a  Creative Commons Attribution 4.0 International License  </a>.
                   `
                 }}
               />
-              </S.FooterContainer>
-
             </Row>
+
+
+      
+
+            
+            {/* <Row>
+              <a href="" target="_blank">demanded cooperations that made, sense</a>
+            </Row> */}
           </Container>
         </S.Extra>
       </Fade>
