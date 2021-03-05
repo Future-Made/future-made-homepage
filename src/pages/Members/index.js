@@ -3,12 +3,26 @@ import { CollaboratorsList } from 'react-component-collaborators'
 import { CardComplete } from 'react-component-collaborators'
 import { CardMinimal } from 'react-component-collaborators'
 
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
+
 const Members = () => {
 
   let listStyleObject = {
-    listWidth: '1000px',
-    listHeight: '600px',
-    direction: 'horizontal',
+    listWidth: '800px',
+    listHeight: '800px',
+    direction: 'vertical',
+    listBackgroundColor: '#000'
+  }
+
+  let listStyleObjectMobile = {
+    listWidth: '320px',
+    listHeight: '800px',
+    direction: 'vertical',
     listBackgroundColor: '#000'
   }
 
@@ -24,8 +38,8 @@ const Members = () => {
   }
 
   let cardStyleObject = {
-    cardWidth: '280px',
-    cardHeight: '140px',
+    cardWidth: '360px',
+    cardHeight: '200px',
     cardBackgroundColor: '#e17e23',
     textAlign: 'center',
     imageFormat: 'circle',
@@ -90,7 +104,7 @@ const Members = () => {
       image:
         'https://i.imgur.com/YSVq4C1.png',
       title: 'Sabrina De Mitri',
-      description: 'Musician'
+      description: 'Saxophone player, Song writer, Singer, Backing Vocal, Fx, percussionist, Radio Presenter, Writer, Educator, booking agent and event manager'
     },
     {
       image:
@@ -109,7 +123,7 @@ const Members = () => {
     
     <CollaboratorsList
     collaboratorsArray={shuffle(collaboratorsArray)}
-    listStyleObject={listStyleObject}
+    listStyleObject={isMobile? listStyleObjectMobile : listStyleObject}
   >
     <CardComplete
       cardStyleObject={cardStyleObject}

@@ -104,14 +104,14 @@ const Home = () => {
 
 <CookieConsent
   location="bottom"
-  buttonText="roger that!"
+  buttonText="hmm, I see."
   cookieName="myAwesomeCookieName2"
   style={{ background: "#2B373B" }}
   buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
   expires={150}
 >
   Collaborators of this site use actual cookies to feed their appetites.{" "}
-  <span style={{ fontSize: "10px" }}>hoping a clicking such buttons will not contribute to a classical conditioning or a future reflex.</span>
+  <span style={{ fontSize: "10px" }}>hoping that clicking such buttons in general, will not contribute to a future reflex or conditioning on clicking to first button appearing on a malicious site to get more space.</span>
 </CookieConsent>
       {/* <ContactFrom
         title={ContactContent.title}

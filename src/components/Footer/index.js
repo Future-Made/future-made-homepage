@@ -41,28 +41,29 @@ const Footer = ({ t }) => {
                 <S.Title>{t("Work in progress")}</S.Title>
 
                   <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
-                  target="_blank">proposed co-op model</a>
+                  target="_blank">|{">"} proposed co-op model</a>
                 <br></br>
                                   
                 <a href="https://github.com/future-made"
-                      target="_blank">open source @ github</a>
+                      target="_blank">|{">"} open source @ github</a>
                       <br></br>
             
                 <a href="https://miro.com/app/board/o9J_lcIxk6U=/"
-                                  target="_blank">participatory design (iteration#1)</a>
+                                  target="_blank">|{">"} participatory design (iteration#1)</a>
                             <br></br>
                             <a href="https://imgur.com/U6cuRw3"
-                      target="_blank">comparison, based on accessibility and predictability</a>
-                     <br></br>
+                      target="_blank">|{">"} optimistic comparison</a>
+                                            <br></br>
+
                   <a href="https://www.pearltrees.com/the_offset_movement"
-                      target="_blank">reading material</a>
+                      target="_blank">|{">"} reading material</a>
                       <br></br>
 
                             <a href="https://docs.google.com/presentation/d/1vHhyi8oaW5J4Td5IXJklP_yQTRXxO1XEdY2Rbwi-d2U/"
-                          target="_blank">proposal for tackling disinformation</a>
+                          target="_blank">|{">"} proposal for disinformation challenge</a>
                           <br></br>
                   <a href="https://offsetmovement.org"
-                      target="_blank">futuristic manifest -- 2b updated</a>
+                      target="_blank"> |{">"} futuristic manifest -- 2b updated</a>
                      <br></br>
 
                    
