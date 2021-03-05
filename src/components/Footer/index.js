@@ -63,7 +63,7 @@ const Footer = ({ t }) => {
                           target="_blank">|{">"} proposal for disinformation challenge</a>
                           <br></br>
                   <a href="https://offsetmovement.org"
-                      target="_blank"> |{">"} futuristic manifest -- 2b updated</a>
+                      target="_blank"> |{">"} futuristic manifest </a>
                      <br></br>
 
                    
@@ -127,7 +127,7 @@ const Footer = ({ t }) => {
 </S.Para>
               </Col>
              
-              {/* <Col lg={6} md={6} sm={12} xs={24}>
+              <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
                   <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
                   <S.LangSelect
@@ -144,7 +144,7 @@ const Footer = ({ t }) => {
 
                   </S.LangSelect>
                 </S.Select>
-              </Col> */}
+              </Col>
             </Row>
           </Container>
         </S.Footer>

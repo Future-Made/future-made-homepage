@@ -4,16 +4,16 @@ import { CardComplete } from 'react-component-collaborators'
 import { CardMinimal } from 'react-component-collaborators'
 
 import {
-  BrowserView,
-  MobileView,
-  isBrowser,
+  // BrowserView,
+  // MobileView,
+  // isBrowser,
   isMobile
 } from "react-device-detect";
 
 const Members = () => {
 
   let listStyleObject = {
-    listWidth: '800px',
+    listWidth: '1300px',
     listHeight: '800px',
     direction: 'vertical',
     listBackgroundColor: '#000'
@@ -57,25 +57,47 @@ const Members = () => {
     marginDescription: '0px 0px 0px 0px'
   }
 
+  let cardStyleObjectMobile = {
+    cardWidth: '260px',
+    cardHeight: '200px',
+    cardBackgroundColor: '#e17e23',
+    textAlign: 'center',
+    imageFormat: 'circle',
+    borderImage: borderImage,
+    borderCard: borderCard,
+    titleColor: '#000',
+    descriptionColor: '#000',
+    imageWidth: '100px',
+    imageHeight: '100px',
+    fontSizeTitle: '100%',
+    paddingTitle: '0px 0px 20px 0px',
+    marginTitle: '0px 0px 0px 0px',
+    fontSizeDescription: '80%',
+    paddingDescription: '0px 0px 0px 0px',
+    marginDescription: '0px 0px 0px 0px'
+  }
+
+  
+
   let imagePosition = "left"
   let collaboratorsArray = [
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tolgay.jpg',
       title: 'Abbas Tolgay Yilmaz',
-      description: 'Software Engineer, Visual Artist, Game Theorist'
+      description: 'software Engineer, visual artist, game theorist'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/zari.png',
       title: 'Zari Harat',
-      description: 'Painter, traveler, healer, teacher, creative coach'
+      description: 'painter, traveler, healer, teacher, creative coach'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tanja.jpeg',
       title: 'Tanja Taechanurug',
-      description: 'Designer, Illustrator'
+      description: 'designer, illustrator, globetrotter'
     },    {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/mikey.jpg',
@@ -86,7 +108,7 @@ const Members = () => {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tina.png',
       title: 'Tina Marquardt',
-      description: 'blockchain & distributed governance researcher, entrepreneur'
+      description: 'Blockchain & istributed governance researcher, entrepreneur'
     },
     {
       image:
@@ -117,20 +139,46 @@ const Members = () => {
         'https://i.imgur.com/EgM5oOq.png',
       title: 'Emin Araç',
       description: 'Photographer, Traveler'
-    }
+    },
+    // {
+    //   image:
+    //     'https://',
+    //   title: 'Thomas Prüdom',
+    //   description: ''
+    // }
   ]
+
+  if(isMobile){
+    return (
+    
+      <CollaboratorsList
+      collaboratorsArray={shuffle(collaboratorsArray)}
+      listStyleObject={listStyleObjectMobile}
+    >
+      <CardComplete
+      cardStyleObject={cardStyleObjectMobile}
+      imagePosition={imagePosition}
+    />
+    </CollaboratorsList>
+    );
+  }
+
   return (
     
     <CollaboratorsList
     collaboratorsArray={shuffle(collaboratorsArray)}
-    listStyleObject={isMobile? listStyleObjectMobile : listStyleObject}
-  >
-    <CardComplete
+    listStyleObject={listStyleObject}
+    >
+    
+      <CardComplete
       cardStyleObject={cardStyleObject}
       imagePosition={imagePosition}
-    />
-  </CollaboratorsList>
+      />
+      
+    </CollaboratorsList>
   );
+
+
 };
 
 // everyday we are shuffling.
