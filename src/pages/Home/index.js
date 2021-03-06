@@ -28,9 +28,11 @@ const Home = () => {
         first="true"
         title={IntroContent.title}
         content={IntroContent.text}
-        icon="developer.svg"
+        //icon="developer.svg"
+        icon="bridging_culture.png"
         id="intro"
       />
+
       <ContentBlock
               type="left"
               title={ExpressionOfDemand.title}
