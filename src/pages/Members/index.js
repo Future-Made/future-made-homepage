@@ -142,7 +142,7 @@ const Members = () => {
     },
     {
       image:
-        '',
+        'https://i.imgur.com/i11KbWY.png',
       title: 'Thomas Prüdom @ Paris, FR',
       description: 'political science & international relations, activism, non-governmental-organisations and more'
     }
