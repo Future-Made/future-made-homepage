@@ -40,13 +40,12 @@ const Footer = ({ t }) => {
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Work in progress")}</S.Title>
 
-                  <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
-                  target="_blank">|{">"} proposed co-op model</a>
-                <br></br>
-                                  
                 <a href="https://github.com/future-made"
-                      target="_blank">|{">"} open source @ github</a>
+                      target="_blank">|{">"} humbly, open sourcing everything</a>
                       <br></br>
+                 <a href="https://github.com/orgs/future-made/projects"
+                      target="_blank">|{">"} project status and cooperations</a>
+                  <br></br>
             
                 <a href="https://miro.com/app/board/o9J_lcIxk6U=/"
                                   target="_blank">|{">"} participatory design (iteration#1)</a>
@@ -54,34 +53,29 @@ const Footer = ({ t }) => {
                             <a href="https://imgur.com/U6cuRw3"
                       target="_blank">|{">"} optimistic comparison</a>
                                             <br></br>
+                  <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
+                  target="_blank">|{">"} proposed co-op model for art events</a>
+                <br></br>
+                                  
 
                   <a href="https://www.pearltrees.com/the_offset_movement"
                       target="_blank">|{">"} reading material</a>
                       <br></br>
 
-                            <a href="https://docs.google.com/presentation/d/1vHhyi8oaW5J4Td5IXJklP_yQTRXxO1XEdY2Rbwi-d2U/"
-                          target="_blank">|{">"} proposal for disinformation challenge</a>
-                          <br></br>
+                  <a href="https://docs.google.com/presentation/d/1vHhyi8oaW5J4Td5IXJklP_yQTRXxO1XEdY2Rbwi-d2U/"
+                target="_blank">|{">"} proposal for re-establishing trust</a>
+                <br></br>
+                
+                  {/* TODO 1: update for typos 
+                  TODO 2: add to top/include where needed */}
+                  <br></br>
                   <a href="https://offsetmovement.org"
-                      target="_blank"> |{">"} futuristic manifest </a>
+                      target="_blank"> |{">"} |{">"}  wait for it, wait for it: 
+                      <br></br>
+                      futuristic and multimediamethic, non-perfectionist manifest) </a>
                      <br></br>
-
-                   
-
-               
               </Col>
-              {/* <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("philosophy")}</S.Title>
-                <S.Large left="true">
-                  {t("Impact Orientation")}
-                </S.Large>
-                <S.Large left="true">
-                  {t("Demand Augmentation")}
-                </S.Large>
-                <S.Large left="true">
-                  {t("Universal Basic Experiences")}
-                </S.Large>
-              </Col> */}
+        
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Empty />
            
@@ -108,7 +102,6 @@ const Footer = ({ t }) => {
                   src="twitter.svg"
                 />
 
-          
               </Row>
               </Col>
 
@@ -123,8 +116,9 @@ const Footer = ({ t }) => {
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
                 <S.Language>{t("CREDITS")}</S.Language>
-                <S.Para>              <a href="https://github.com/Adrinlol/landy-react-template" target="_blank">landly.website<a ></a> by Lasha Kakabadze</a>
-</S.Para>
+                <S.Para>              
+                  <a href="https://github.com/Adrinlol/landy-react-template" target="_blank">landly.website<a ></a> by Lasha Kakabadze</a>
+                  </S.Para>
               </Col>
              
               {/* <Col lg={6} md={6} sm={12} xs={24}>
@@ -176,13 +170,6 @@ const Footer = ({ t }) => {
               />
             </Row>
 
-
-      
-
-            
-            {/* <Row>
-              <a href="" target="_blank">demanded cooperations that made, sense</a>
-            </Row> */}
           </Container>
         </S.Extra>
       </Fade>

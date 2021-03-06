@@ -71,7 +71,7 @@ const Header = ({ t }) => {
           onClick={() => scrollTo("donation_as_precondition")}
         >
           <S.Span>
-            <Button>{t("donation as precondition")}</Button>
+            <Button>{t("impact-orientation")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
 
