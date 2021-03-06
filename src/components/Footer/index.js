@@ -65,14 +65,15 @@ const Footer = ({ t }) => {
                   <a href="https://docs.google.com/presentation/d/1vHhyi8oaW5J4Td5IXJklP_yQTRXxO1XEdY2Rbwi-d2U/"
                 target="_blank">|{">"} proposal for re-establishing trust</a>
                 <br></br>
-                
+
                   {/* TODO 1: update for typos 
                   TODO 2: add to top/include where needed */}
                   <br></br>
                   <a href="https://offsetmovement.org"
-                      target="_blank"> |{">"} |{">"}  wait for it, wait for it: 
+                      target="_blank"> |{">"} |{">"} <br></br>
+                      wait for it, wait for it: 
                       <br></br>
-                      futuristic and multimediamethic, non-perfectionist manifest) </a>
+                      non-perfectionist manifest  </a>
                      <br></br>
               </Col>
         
