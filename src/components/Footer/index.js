@@ -127,7 +127,7 @@ const Footer = ({ t }) => {
 </S.Para>
               </Col>
              
-              <Col lg={6} md={6} sm={12} xs={24}>
+              {/* <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
                   <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
                   <S.LangSelect
@@ -144,7 +144,7 @@ const Footer = ({ t }) => {
 
                   </S.LangSelect>
                 </S.Select>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </S.Footer>
