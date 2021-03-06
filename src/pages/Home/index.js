@@ -70,7 +70,7 @@ const Home = () => {
 <CookieConsent
   location="bottom"
   buttonText="hmm, I see."
-  cookieName="myAwesomeCookieName2"
+  cookieName="cookieForImpact"
   style={{ background: "#2B373B" }}
   buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
   expires={150}
