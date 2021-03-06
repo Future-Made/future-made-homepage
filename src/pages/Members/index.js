@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { CollaboratorsList } from 'react-component-collaborators'
 import { CardComplete } from 'react-component-collaborators'
-import { CardMinimal } from 'react-component-collaborators'
 
 import {
   // BrowserView,
@@ -85,60 +84,60 @@ const Members = () => {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tolgay.jpg',
       title: 'Abbas Tolgay Yilmaz',
-      description: 'software Engineer, visual artist, game theorist'
+      description: 'software developer, visual artist, game theorist'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/zari.png',
       title: 'Zari Harat',
-      description: 'painter, traveler, healer, teacher, creative coach'
+      description: 'painter, healer, teacher, creative coach'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tanja.jpeg',
       title: 'Tanja Taechanurug',
-      description: 'designer, illustrator, globetrotter'
+      description: 'designer, illustrator'
     },    {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/mikey.jpg',
       title: 'Mikey Goodfire',
-      description: 'Musician, Traveler'
+      description: 'musician, performance artist'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tina.png',
       title: 'Tina Marquardt',
-      description: 'Blockchain & istributed governance researcher, entrepreneur'
+      description: 'blockchain & istributed governance researcher, entrepreneur'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/vasilis.png',
       title: 'Vasilis Spilka',
-      description: 'Software Architect'
+      description: 'software architect and many more'
     },
     {
       image:
         'https://i.imgur.com/PmFMNdc.png',
       title: 'Sharon Lomanno',
-      description: 'Art Director, Scientist, Photographer, Videographer'
+      description: 'art director, scientist, photographer, videographer'
     },
     {
       image:
         'https://i.imgur.com/YSVq4C1.png',
       title: 'Sabrina De Mitri',
-      description: 'Saxophone player, Song writer, Singer, Backing Vocal, Fx, percussionist, Radio Presenter, Writer, Educator, booking agent and event manager'
+      description: 'saxophone player, song writer, singer, sacking vocal, fx, loopmaker, samples maker, radio presenter, producer and event manager, writer, educator, consciousness',
     },
     {
       image:
         'https://i.imgur.com/ZUwnvHZ.png',
       title: 'Jannik Bessert',
-      description: 'Audio Engineer'
+      description: 'audio engineer and many more'
     },
     {
       image:
         'https://i.imgur.com/EgM5oOq.png',
       title: 'Emin Araç',
-      description: 'Photographer, Traveler'
+      description: 'photographer and many more'
     },
     // {
     //   image:
