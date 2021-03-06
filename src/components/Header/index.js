@@ -47,22 +47,23 @@ const Header = ({ t }) => {
 
         <S.CustomNavLinkSmall
           style={{ width: "160px" }}
+          onClick={() => scrollTo("discovery_of_demand")}
+        >
+          <S.Span>
+            <Button>{t("discovery of demand")}</Button>
+          </S.Span>
+        </S.CustomNavLinkSmall>
+
+        <S.CustomNavLinkSmall
+          style={{ width: "160px" }}
           onClick={() => scrollTo("demand_on_air")}
         >
           <S.Span>
-            <Button>{t("demand on air")}</Button>
+            <Button>{t("demand, on-air")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
 
         
-        <S.CustomNavLinkSmall
-          style={{ width: "160px" }}
-          onClick={() => scrollTo("discovery_of_collective_demand")}
-        >
-          <S.Span>
-            <Button>{t("discovery of collective demand")}</Button>
-          </S.Span>
-        </S.CustomNavLinkSmall>
 
         
         <S.CustomNavLinkSmall
