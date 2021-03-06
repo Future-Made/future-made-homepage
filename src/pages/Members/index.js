@@ -83,68 +83,69 @@ const Members = () => {
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tolgay.jpg',
-      title: 'Abbas Tolgay Yilmaz',
-      description: 'software developer, visual artist, game theorist'
+      title: 'Abbas Tolgay Yilmaz @ Hamburg, DE',
+      description: 'software developer, visual artist, game theorist and many more'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/zari.png',
-      title: 'Zari Harat',
-      description: 'painter, healer, teacher, creative coach'
+      title: 'Zari Harat @ Hamburg, DE',
+      description: 'painter, healer, teacher, creative coach and many more'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tanja.jpeg',
-      title: 'Tanja Taechanurug',
+      title: 'Tanja Taechanurug @ Hamburg, DE',
       description: 'designer, illustrator'
     },    {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/mikey.jpg',
-      title: 'Mikey Goodfire',
-      description: 'musician, performance artist'
+      title: 'Mikey Goodfire @ Amsterdam, NL',
+      description: 'musician, performance artist and many more'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tina.png',
-      title: 'Tina Marquardt',
-      description: 'blockchain & istributed governance researcher, entrepreneur'
+      title: 'Tina Marquardt @ Bochum, DE',
+      description: 'blockchain & istributed governance researcher, entrepreneur and many more'
     },
     {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/vasilis.png',
-      title: 'Vasilis Spilka',
+      title: 'Vasilis Spilka @ Prague, CZ',
       description: 'software architect and many more'
     },
     {
       image:
         'https://i.imgur.com/PmFMNdc.png',
-      title: 'Sharon Lomanno',
-      description: 'art director, scientist, photographer, videographer'
+      title: 'Sharon Lomanno @ Sersale, IT',
+      description: 'art director, scientist, photographer, videographer and many more'
     },
     {
       image:
         'https://i.imgur.com/YSVq4C1.png',
-      title: 'Sabrina De Mitri',
-      description: 'saxophone player, song writer, singer, sacking vocal, fx, loopmaker, samples maker, radio presenter, producer and event manager, writer, educator, consciousness',
+      title: 'Sabrina De Mitri @ Brindisi, IT',
+      description: 'saxophone player, song writer, singer, sacking vocal, fx, loopmaker, samples maker, radio presenter, producer and event manager, writer, educator, consciousness and many more',
     },
     {
       image:
         'https://i.imgur.com/ZUwnvHZ.png',
-      title: 'Jannik Bessert',
+      title: 'Jannik Bessert @ Hamburg, DE',
       description: 'audio engineer and many more'
     },
     {
       image:
         'https://i.imgur.com/EgM5oOq.png',
-      title: 'Emin Araç',
-      description: 'photographer and many more'
+      title: 'Emin Araç @ İzmir, TR',
+      description: 'documentary, portrait and street photography vinyl records & collectibles - collect and deal ex live broadcast tv host - interview/talk show and many more'
+      
     },
-    // {
-    //   image:
-    //     'https://',
-    //   title: 'Thomas Prüdom',
-    //   description: ''
-    // }
+    {
+      image:
+        '',
+      title: 'Thomas Prüdom @ Paris, FR',
+      description: 'political science & international relations, activism, non-governmental-organisations and more'
+    }
   ]
 
   if(isMobile){
