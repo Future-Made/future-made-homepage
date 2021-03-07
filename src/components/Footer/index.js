@@ -113,32 +113,34 @@ const Footer = ({ t }) => {
                 <S.Language>{t("PHILOSOPHY AND HOPE")}</S.Language>
           
                     <strong>
-                    future and impact drivenness via: <strong>|{">"}</strong> 
-                    <br></br> 
-                    encouragement <strong>|{">"}</strong> empowerment <strong>|{">"}</strong> enablement of
+                    future and impact drivenness via: <br></br>
+                    </strong> <br></br>
+                    encouragement<br></br>
+                    <strong>+</strong> empowerment <br></br>
+                    <strong>----------------------</strong> <br></br>
+                    = enablement.<br></br>
+                 
                     <br></br>
-                    </strong>
-               
-                    <strong>|{">"}</strong> local and planetary awareness and togetherness
+                    <strong>|{">"}</strong> local and planetary awareness <br></br> and togetherness
+                    <br></br>
                     <br></br>
 
                     <strong>|{">"}</strong>  individual initiative-taking and collective decision-making
                     <br></br>
-                  
-                    <strong>|{">"}</strong>  achieving universal basic experiences via arts and science
+                    <br></br>
+              
+                    <strong>|{">"}</strong>  achieving universal basic experiences 
+                    <br></br>via arts and science
+                    <br></br>
                     <br></br>
 
-                    <strong>|{">"}</strong> incentivising demand-awareness in the creative fields<br></br>
+                    <strong>|{">"}</strong> incentivising demand-awareness <br></br> in the creative fields<br></br>
                       aka. intentions over impressions
                     <br></br>
-
-                    <strong>|{">"}</strong> demand-orientation in the goods and services<br></br>
-                    aka. less “over-production”
                     <br></br>
-
-                  <strong>|{">"}</strong> transparency over ambiguity <br></br>
-                  aka. less “over-production”
-
+                    <strong>|{">"}</strong> demand-orientation <br></br> in the goods and services<br></br>
+                    aka. less “over-production”
+              
 
               </Col>
               <Col lg={10} md={10} sm={12} xs={24}>
@@ -157,15 +159,17 @@ const Footer = ({ t }) => {
                 <S.Para>
                   <a href="https://github.com/Adrinlol/landy-react-template" target="_blank">
                   <br></br>
+                  <br></br>
                   ++
                   <br></br>
                   <br></br>
+                  
                   Initial code of our homepage page, a React.js template accessible at 
                   <a href="https://landly.website"><strong> landly.website</strong></a> <br></br><br></br>
-                  <strong>Developed by <a href="https://github.com/Adrinlol">Lasha Kakabadze ~~ @Adrinlol)</a></strong>
+                  <strong>Developed by <a href="https://github.com/Adrinlol">Lasha Kakabadze ~~ @Adrinlol</a></strong>
                     </a>
                 </S.Para>
-                <br></br>
+          
   
               </Col>
 
