@@ -29,10 +29,10 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         //icon="developer.svg"
-        icon="bridging_culture.png"
+        icon="science_bridging_cultures_cover.jpg"
         id="intro"
       />
-
+      
       <ContentBlock
               type="left"
               title={ExpressionOfDemand.title}
