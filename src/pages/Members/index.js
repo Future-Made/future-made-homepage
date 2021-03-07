@@ -96,7 +96,7 @@ const Members = () => {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/tanja.jpeg',
       title: 'Tanja Taechanurug @ Hamburg, DE',
-      description: 'designer, illustrator'
+      description: 'designer, illustrator and many more'
     },    {
       image:
         'https://offsetmovement.org/FutureMade_files/collaborators/mikey.jpg',
