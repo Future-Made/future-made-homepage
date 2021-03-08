@@ -28,7 +28,6 @@ const Home = () => {
         first="true"
         title={IntroContent.title}
         content={IntroContent.text}
-        //icon="developer.svg"
         icon="science_bridging_cultures_cover.jpg"
         id="intro"
       />
