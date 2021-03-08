@@ -140,12 +140,21 @@ const Members = () => {
       description: 'documentary, portrait and street photography vinyl records & collectibles - collect and deal ex live broadcast tv host - interview/talk show and many more'
       
     },
-    {
-      image:
-        'https://i.imgur.com/i11KbWY.png',
-      title: 'Thomas Prüdom @ Paris, FR',
-      description: 'political science & international relations, activism, non-governmental-organisations and more'
-    }
+    // Our friend, Thomas would like to be unlisted
+    // Until feeling more settled, for the moment. 
+    // This is indeed hard times for all.
+
+    // It is the always the good, co-imaginable future intention
+    // That made this piece of code (PoC) 
+    // commented, instead being deleted.
+    // Will wait here commented, until those good times to come.
+
+    // {
+    //   image:
+    //     'https://i.imgur.com/i11KbWY.png',
+    //   title: 'Thomas Prüdom @ Paris, FR',
+    //   description: 'political science & international relations, activism, non-governmental-organisations and more'
+    // }
   ]
 
   if(isMobile){
