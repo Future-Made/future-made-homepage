@@ -19,7 +19,7 @@ const Footer = ({ t }) => {
     return (
       <a
         href={href}
-        target="_blank"
+        target="_blank" rel="noreferrer"
         rel="noopener noreferrer"
         key={src}
         aria-label={src}
@@ -41,34 +41,34 @@ const Footer = ({ t }) => {
                 <S.Title>{t("Work in progress")}</S.Title>
 
                 <a href="https://github.com/future-made"
-                  target="_blank"><strong>|{">"}</strong> humbly, open sourcing everything</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> humbly, open sourcing everything</a>
                 <br></br>
                 <a href="https://github.com/orgs/future-made/projects"
-                  target="_blank"><strong>|{">"}</strong> project status and cooperations</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> project status and cooperations</a>
                 <br></br>
 
                 <a href="https://miro.com/app/board/o9J_lcIxk6U=/"
-                  target="_blank"><strong>|{">"}</strong> participatory design (iteration#1)</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> participatory design (iteration#1)</a>
                 <br></br>
                 <a href="https://imgur.com/U6cuRw3"
-                  target="_blank"><strong>|{">"}</strong> optimistic comparison</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> optimistic comparison</a>
                 <br></br>
                 <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
-                  target="_blank"><strong>|{">"}</strong> proposed co-op model for art events</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> proposed co-op model for art events</a>
                 <br></br>
 
                 <a href="https://www.pearltrees.com/the_offset_movement"
-                  target="_blank"><strong>|{">"}</strong> reading material</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> reading material</a>
                 <br></br>
 
                 <a href="https://docs.google.com/presentation/d/1vHhyi8oaW5J4Td5IXJklP_yQTRXxO1XEdY2Rbwi-d2U/"
-                  target="_blank"><strong>|{">"}</strong> proposal for re-establishing trust</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> proposal for re-establishing trust</a>
                 <br></br>
 
                 {/* TODO 1: update for typos 
                   TODO 2: add to top/include where needed */}
                 <a href="https://offsetmovement.org"
-                  target="_blank"> 
+                  target="_blank" rel="noreferrer"> 
                   <strong>     {"<"}|...</strong> <strong>|{">"}    </strong> 
                   <br></br>
                   non-perfectionist manifest</a>
@@ -148,7 +148,7 @@ const Footer = ({ t }) => {
                 <S.Language>{t("MANY THANKS TO")}</S.Language>
                 
                 <S.Para>
-                  <a href="https://zenodo.org/record/1193238" target="_blank">
+                  <a href="https://zenodo.org/record/1193238" target="_blank" rel="noreferrer">
                     Artwork with train @ intro, originally included in the book for CERN, named: <strong>Science Bridging Cultures</strong><br></br><br></br>
                   <strong>
                   Designed by: Davide Angheleddu, Justino António Cardoso, Margarita Cimadevila, Angelo Falciano, Michael Hoch, Karen Panman and Islam Mahmoud Sweity
@@ -157,7 +157,7 @@ const Footer = ({ t }) => {
                 </S.Para>
 
                 <S.Para>
-                  <a href="https://github.com/Adrinlol/landy-react-template" target="_blank">
+                  <a href="https://github.com/Adrinlol/landy-react-template" target="_blank" rel="noreferrer">
                   <br></br>
                   <br></br>
                   ++
@@ -169,7 +169,7 @@ const Footer = ({ t }) => {
                   <strong>Developed by <a href="https://github.com/Adrinlol">Lasha Kakabadze ~~ @Adrinlol</a></strong>
                     </a>
                 </S.Para>
-          
+                  
   
               </Col>
 
@@ -177,6 +177,14 @@ const Footer = ({ t }) => {
                 <S.Empty />
                 <S.Language>{t("LOCATION")}</S.Language>
                 <S.Para>decentralised @ planet Earth</S.Para>
+                <br></br>
+                <button>
+                  <a href="https://www.youtube.com/watch?v=7I18_VNjX3g"
+                     target="_blank" rel="noreferrer">
+                    [ our song. thank you for the attention and patience for goodness ]</a>
+                  
+                  </button>
+
               </Col>
 
        
