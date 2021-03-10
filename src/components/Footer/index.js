@@ -106,12 +106,16 @@ const Footer = ({ t }) => {
               </Col>
 
             </Row>
+        
+          
             <Row type="flex" justify="space-between">
 
             <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
                 <S.Language>{t("PHILOSOPHY AND HOPE")}</S.Language>
           
+
+
                     <strong>
                     future and impact drivenness via: <br></br>
                     </strong> <br></br>
@@ -184,6 +188,13 @@ const Footer = ({ t }) => {
                     <br></br>
                   <br></br>
                     ++
+                    <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s" target="_blank" rel="noreferrer"><strong> "Remain Fluid"</strong></a>
+                  <strong> by <a href="http://www.tommyguerrero.com/" target="_blank" rel="noreferrer">Tommy Guerrero</a></strong>
+                  
+
+                    <br></br>
+                  <br></br>
+                    ++
                   <br></br>
                   <br></br>
                   The song,  
@@ -200,9 +211,25 @@ const Footer = ({ t }) => {
 
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
-                <S.Language>{t("LOCATION")}</S.Language>
+                <S.Language>{t("See you in the future")}</S.Language>
+
+                
                 <S.Para>decentralised @ planet Earth</S.Para>
                 <br></br>
+
+                until then,
+
+                for demand-event-upon-stream concept,
+
+                <button>
+                  <a href="https://community.spotify.com/t5/Live-Ideas/Demand-Event-Performance-Upon-Stream-Listen/idi-p/5096642"
+                     target="_blank" rel="noreferrer">
+                    support us on Spotify campaign, maybe? </a>
+                  
+                  </button>
+                  <br></br> 
+             
+                
                 <button>
                   <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s"
                      target="_blank" rel="noreferrer">
