@@ -168,7 +168,20 @@ const Footer = ({ t }) => {
                   <a href="https://landly.website"><strong> landly.website</strong></a> <br></br><br></br>
                   <strong>Developed by <a href="https://github.com/Adrinlol">Lasha Kakabadze ~~ @Adrinlol</a></strong>
                     </a>
+
+                    <br></br>
+                  <br></br>
+                    ++
+                  <br></br>
+                  <br></br>
+                  The song,  
+                  <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s"><strong> "Remain Fluid"</strong></a>
+                  <strong> by <a href="https://en.wikipedia.org/wiki/Tommy_Guerrero">Tommy Guerrero</a></strong>
+                    
+                
                 </S.Para>
+
+                
                   
   
               </Col>
@@ -179,9 +192,9 @@ const Footer = ({ t }) => {
                 <S.Para>decentralised @ planet Earth</S.Para>
                 <br></br>
                 <button>
-                  <a href="https://www.youtube.com/watch?v=7I18_VNjX3g"
+                  <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s"
                      target="_blank" rel="noreferrer">
-                    [ our song. thank you for the attention and patience for goodness ]</a>
+                    ~ remain fluid ~ </a>
                   
                   </button>
 
