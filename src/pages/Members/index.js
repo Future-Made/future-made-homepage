@@ -140,6 +140,13 @@ const Members = () => {
       description: 'documentary, portrait and street photography vinyl records & collectibles - collect and deal ex live broadcast tv host - interview/talk show and many more'
       
     },
+    {
+      image:
+        'https://i.imgur.com/u9ohOfK.png',
+      title: 'how about you?',
+      description: '~ come, as you are ~ future.made@offsetmovement.org '
+      
+    },
     // Our friend, Thomas would like to be unlisted
     // Until feeling more settled, for the moment. 
     // This is indeed hard times for all.

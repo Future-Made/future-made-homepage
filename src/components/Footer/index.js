@@ -121,7 +121,14 @@ const Footer = ({ t }) => {
                     = enablement.<br></br>
                  
                     <br></br>
-                    <strong>|{">"}</strong> local and planetary awareness <br></br> and togetherness
+                    <strong>|{">"}</strong> local and planetary awareness and togetherness <br></br> 
+                    aka. 
+                    <button>
+                      <a  href="https://i.imgur.com/r0xZEvy.jpg" target="_blank" rel="noreferrer">
+                      "reason and impact {"<"}|{">"} locally and globally"
+                      
+                      </a> 
+                      </button>
                     <br></br>
                     <br></br>
 

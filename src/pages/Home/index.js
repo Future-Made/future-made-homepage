@@ -85,13 +85,21 @@ const Home = () => {
         id="contact"
       /> */}
 
-    <h3>Collaborators</h3>
-      
-        <strong>we are shuffled</strong>, <br></br>each time
-         you visit us. <br></br>
+    <h3>Collaborators of now</h3> 
+  
+    <br></br>
+      <h4> and the future </h4>
+    <br></br>
+        <strong>we are shuffled</strong>, 
+        <br></br>
+        each time
+         you visit us. <br></br><br></br>
          apart from <strong>love,</strong><br></br>
          <strong>time</strong> is the only <br></br>
-        authority<br></br> <strong> around here.</strong> <br></br><br></br>
+        authority
+        <br></br> <br></br>
+        
+        <strong> around here.</strong> <br></br><br></br>
   <Members/>
     </Container>
   );
