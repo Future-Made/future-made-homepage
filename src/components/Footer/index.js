@@ -129,17 +129,22 @@ const Footer = ({ t }) => {
                     <br></br>
                     <br></br>
               
-                    <strong>|{">"}</strong>  achieving universal basic experiences 
-                    <br></br>via arts and science
+                    <strong>|{">"}</strong>
+                    <button> 
+                      <a href="https://i.imgur.com/4A7je2S.png" target="_blank" rel="noreferrer">universal basic experiences</a> 
+                    </button> 
+                    <br></br>via STEM to STEAM transformation
                     <br></br>
                     <br></br>
 
-                    <strong>|{">"}</strong> incentivising demand-awareness <br></br> in the creative fields<br></br>
-                      aka. intentions over impressions
+                    <strong>|{">"}</strong> demand-awareness <br></br> in all marketed fields<br></br>
+                      aka. less "over-prediction" 
+                      (intentions over impressions)
                     <br></br>
                     <br></br>
                     <strong>|{">"}</strong> demand-orientation <br></br> in the goods and services<br></br>
                     aka. less “over-production”
+                    (demand over supply)
               
 
               </Col>
@@ -165,8 +170,8 @@ const Footer = ({ t }) => {
                   <br></br>
                   
                   Initial code of our homepage page, a React.js template accessible at 
-                  <a href="https://landly.website"><strong> landly.website</strong></a> <br></br><br></br>
-                  <strong>Developed by <a href="https://github.com/Adrinlol">Lasha Kakabadze ~~ @Adrinlol</a></strong>
+                  <a href="https://landly.website" target="_blank" rel="noreferrer"><strong> landly.website</strong></a> <br></br><br></br>
+                  <strong>Developed by <a href="https://github.com/Adrinlol" target="_blank" rel="noreferrer">Lasha Kakabadze ~~ @Adrinlol</a></strong>
                     </a>
 
                     <br></br>
@@ -175,8 +180,8 @@ const Footer = ({ t }) => {
                   <br></br>
                   <br></br>
                   The song,  
-                  <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s"><strong> "Remain Fluid"</strong></a>
-                  <strong> by <a href="https://en.wikipedia.org/wiki/Tommy_Guerrero">Tommy Guerrero</a></strong>
+                  <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s" target="_blank" rel="noreferrer"><strong> "Remain Fluid"</strong></a>
+                  <strong> by <a href="http://www.tommyguerrero.com/" target="_blank" rel="noreferrer">Tommy Guerrero</a></strong>
                     
                 
                 </S.Para>
