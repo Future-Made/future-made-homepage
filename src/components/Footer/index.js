@@ -187,10 +187,19 @@ const Footer = ({ t }) => {
 
                     <br></br>
                   <br></br>
+            
+                   
+                  <br></br>
+                  <br></br>
                     ++
-                    <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s" target="_blank" rel="noreferrer"><strong> "Remain Fluid"</strong></a>
-                  <strong> by <a href="http://www.tommyguerrero.com/" target="_blank" rel="noreferrer">Tommy Guerrero</a></strong>
+                  <br></br>
+                  <br></br>
                   
+                  <a href="https://diannemalone.com/blog/wp-content/uploads/2019/04/now-digital-are-you-ready-for-change-4-638.jpg" target="_blank" rel="noreferrer">
+                  The "it's time" picture on collaborators list, 
+                    </a>
+                  <strong> is from an inspiring post by<a href="https://diannemalone.com/" target="_blank" rel="noreferrer"> Dianne Malone</a></strong>
+                    
 
                     <br></br>
                   <br></br>
