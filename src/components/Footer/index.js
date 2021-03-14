@@ -24,7 +24,7 @@ const Footer = ({ t }) => {
         key={src}
         aria-label={src}
       >
-        <SvgIcon src={src} width="25px" height="25px" />
+        <SvgIcon src={src} width="50px" height="50px" />
       </a>
     );
   };
@@ -39,11 +39,23 @@ const Footer = ({ t }) => {
 
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Work in progress")}</S.Title>
+                <a href="https://drive.google.com/file/d/1CkhLXaKBthhyxugrNZ6wWfkUJPs2oa0f/view"
+                  target="_blank" rel="noreferer">
+                    <strong>|{">"}</strong> video record of  
+                    <a href="https://github.com/Future-Made/demand-upon-tune-web"> current app in development,
+                    </a>
+                    </a> based on <a href="https://tune.fullyforged.com/"><strong>tune.fullyforged.com</strong></a>
+                  <br></br>                  
+                  <br></br>
 
                 <a href="https://github.com/future-made"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> humbly, open sourcing everything</a>
                 <br></br>
-                <a href="https://github.com/orgs/future-made/projects"
+                <br></br>
+
+
+                  
+                <a href="https://youtu.be/s3rbK49uzAE"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> project status and cooperations</a>
                 <br></br>
 

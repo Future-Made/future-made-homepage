@@ -23,6 +23,10 @@ const Home = () => {
     <Container>
       <ScrollToTop />
 
+      <button>
+      <a href="https://drive.google.com/file/d/1CkhLXaKBthhyxugrNZ6wWfkUJPs2oa0f/view" target="_blank"><p>current app development status |{">"} video</p></a>
+      </button>
+
       <ContentBlock
         type="right"
         first="true"
