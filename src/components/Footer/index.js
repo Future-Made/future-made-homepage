@@ -104,6 +104,7 @@ const Footer = ({ t }) => {
                 <a href="mailto:future.made@offsetmovement.org">
                   <S.Chat>{t(`email: future.made@offsetmovement.org`)}</S.Chat>
                 </a>
+              
                 <Row>
                   <SocialLink
                     href="https://github.com/Future-Made"
@@ -115,6 +116,13 @@ const Footer = ({ t }) => {
                   />
 
                 </Row>
+                <br></br>
+                <button>
+                  <a href="https://i.imgur.com/pIPZyFH.png" 
+                  target="_blank"
+                  rel="noreferer"
+                  >logo with QR for stickers</a>
+                </button>
               </Col>
 
             </Row>
@@ -186,24 +194,9 @@ const Footer = ({ t }) => {
 
                 <S.Para>
                   <a href="https://github.com/Adrinlol/landy-react-template" target="_blank" rel="noreferrer">
-                  <br></br>
-                  <br></br>
-                  ++
-                  <br></br>
-                  <br></br>
                   
-                  Initial code of our homepage page, a React.js template accessible at 
-                  <a href="https://landly.website" target="_blank" rel="noreferrer"><strong> landly.website</strong></a> <br></br><br></br>
-                  <strong>Developed by <a href="https://github.com/Adrinlol" target="_blank" rel="noreferrer">Lasha Kakabadze ~~ @Adrinlol</a></strong>
-                    </a>
-
-                    <br></br>
-                  <br></br>
-            
-                   
-                  <br></br>
-                  <br></br>
-                    ++
+                  
+                  ++
                   <br></br>
                   <br></br>
                   
@@ -212,16 +205,42 @@ const Footer = ({ t }) => {
                     </a>
                   <strong> is from an inspiring post by<a href="https://diannemalone.com/" target="_blank" rel="noreferrer"> Dianne Malone</a></strong>
                     
+                  <br></br>
+              
+
+                  <br></br>
+                  ++
+                  <br></br>
+                
+                  
+                  Initial code of our homepage page, a React.js template accessible at 
+                  <a href="https://landly.website" target="_blank" rel="noreferrer"><strong> landly.website</strong></a> <br></br><br></br>
+                  <strong>Developed by <a href="https://github.com/Adrinlol" target="_blank" rel="noreferrer">Lasha Kakabadze ~~ @Adrinlol</a></strong>
+                    </a>
 
                     <br></br>
-                  <br></br>
                     ++
+                    <br></br>
+                  <br></br>
+                  
+                  <a href="https://github.com/Future-Made/demand-upon-tune-web" target="_blank" rel="noreferer"> 
+                  The first app, using demand-event-upon-stream concept </a> is forking
+                  <a href="https://tune.fullyforged.com" target="_blank" rel="noreferer">
+                    <strong> tune.fullyforged.com</strong>
+                    </a>
+                     {", "}developed by
+                    <a href="https://claudio-ortolina.org/" target="_blank" rel="noreferer">
+                      <strong> Claudio Ortolina</strong>
+                      </a> 
+                  <br></br>
+                  ++
                   <br></br>
                   <br></br>
                   The song,  
                   <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s" target="_blank" rel="noreferrer"><strong> "Remain Fluid"</strong></a>
-                  <strong> by <a href="http://www.tommyguerrero.com/" target="_blank" rel="noreferrer">Tommy Guerrero</a></strong>
-                    
+                  <strong> made by <a href="http://www.tommyguerrero.com/" target="_blank" rel="noreferrer">Tommy Guerrero</a></strong>
+                  
+            
                 
                 </S.Para>
 
@@ -245,11 +264,11 @@ const Footer = ({ t }) => {
                 <button>
                   <a href="https://community.spotify.com/t5/Live-Ideas/Demand-Event-Performance-Upon-Stream-Listen/idi-p/5096642"
                      target="_blank" rel="noreferrer">
-                    support us on Spotify campaign, maybe? </a>
+                    you can also vote for Spotify campaign for impact</a>
                   
                   </button>
                   <br></br> 
-             
+                  <br></br> 
                 
                 <button>
                   <a href="https://www.youtube.com/watch?v=afQTyDtcUu0&t=2550s"
