@@ -24,7 +24,7 @@ const Home = () => {
       <ScrollToTop />
 
       <button>
-      <a href="https://drive.google.com/file/d/1sPIdXfxProId3nF3eIAwniNFerJpYQUX/view?usp=sharing" target="_blank"><p>current app development status |{">"} video</p></a>
+      <a href="https://vimeo.com/524785746" target="_blank"><p>current app development status |{">"} video</p></a>
       </button>
 
       <ContentBlock

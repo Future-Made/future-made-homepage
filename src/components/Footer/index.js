@@ -39,7 +39,7 @@ const Footer = ({ t }) => {
 
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Work in progress")}</S.Title>
-                <a href="https://drive.google.com/file/d/1CkhLXaKBthhyxugrNZ6wWfkUJPs2oa0f/view"
+                <a href="https://vimeo.com/524785746"
                   target="_blank" rel="noreferer">
                     <strong>|{">"}</strong> video record of  
                     <a href="https://github.com/Future-Made/demand-upon-tune-web"> current app in development,
