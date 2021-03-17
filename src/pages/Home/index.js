@@ -24,7 +24,7 @@ const Home = () => {
       <ScrollToTop />
 
       <button>
-      <a href="https://drive.google.com/file/d/1CkhLXaKBthhyxugrNZ6wWfkUJPs2oa0f/view" target="_blank"><p>current app development status |{">"} video</p></a>
+      <a href="https://drive.google.com/file/d/1sPIdXfxProId3nF3eIAwniNFerJpYQUX/view?usp=sharing" target="_blank"><p>current app development status |{">"} video</p></a>
       </button>
 
       <ContentBlock
@@ -58,7 +58,7 @@ const Home = () => {
         type="left"
         title={DemandOnAir.title}
         content={DemandOnAir.text}
-        icon="impact-oriented-demand_annotated.svg"
+        icon="impact-oriented-demand-.svg"
         id="demand_on_air"
       />
 
