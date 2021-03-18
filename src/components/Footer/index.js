@@ -39,34 +39,36 @@ const Footer = ({ t }) => {
 
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Work in progress")}</S.Title>
+                  <a href="https://i.imgur.com/xo7r0zi.png"
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> our UN sustainable development goals</a>
+                <br></br>
+                <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> proposed co-op model for future art events</a>
+                <br></br>
+                <br></br>                  
+
                 <a href="https://vimeo.com/524785746"
                   target="_blank" rel="noreferer">
-                    <strong>|{">"}</strong> video record of  
-                    <a href="https://github.com/Future-Made/demand-upon-tune-web"> current app in development,
-                    </a>
-                    </a> based on <a href="https://tune.fullyforged.com/"><strong>tune.fullyforged.com</strong></a>
-                  <br></br>                  
-                  <br></br>
-
+                    <strong>|{">"}</strong> first app's status (video) </a>
+                <br></br>
+                
                 <a href="https://github.com/future-made"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> humbly, open sourcing everything</a>
                 <br></br>
-                <br></br>
-
-
-                  
                 <a href="https://github.com/orgs/Future-Made/projects/1"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> project status and cooperations</a>
                 <br></br>
+                <br></br>
+               
+
+
+                  
 
                 <a href="https://miro.com/app/board/o9J_lcIxk6U=/"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> participatory design (iteration#1)</a>
                 <br></br>
                 <a href="https://imgur.com/U6cuRw3"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> optimistic comparison</a>
-                <br></br>
-                <a href="https://miro.com/app/board/o9J_ldhZvuk=/"
-                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> proposed co-op model for art events</a>
                 <br></br>
 
                 <a href="https://www.pearltrees.com/the_offset_movement"
