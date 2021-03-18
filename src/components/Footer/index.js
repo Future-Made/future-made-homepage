@@ -55,7 +55,7 @@ const Footer = ({ t }) => {
 
 
                   
-                <a href="https://youtu.be/s3rbK49uzAE"
+                <a href="https://github.com/orgs/Future-Made/projects/1"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> project status and cooperations</a>
                 <br></br>
 
