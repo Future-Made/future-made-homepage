@@ -4,13 +4,13 @@
   "section": [
     {
       "title": "First area of implementation, arts and culture/events",
-      "content": "We'd like to reduce the stress on the artists and help them sustain their efforts via making their performances more accessible to their audiences, as well as increasing their mobility with local support for the resources and skills they might need or provide via bridging and reflecting.",
+      "content": "We'd like to reduce the stress on the artists and help them sustain their efforts via making their performances more accessible to their audiences, as well as increasing their mobility with local support for the resources and skills they might need or provide via bridging and reflecting the needs and hopes.",
       "icon": "demo_app_video_link.png"
     },
     {
-      "title": "What is next? \"Financially and politically\" backed, independent journalism",
-      "content": "Applying demand-aware framework for crowdfunding and co-imagination and funding of the ultimate transparency and verified knowledge. Hence, civic demands that made with desired topics & aspects along with debate themes and attendee requests to those content and talks.",
-      "icon": "notes.svg"
+      "title": "What is next? \"Financially and politically\" backed journalism",
+      "content": "Applying demand-aware framework for crowdfunding and co-imagination of ultimate transparency and verified knowledge. Exposition of civic demands that made with desired topics & aspects along with debate themes and attendee requests to those content and talks will be made, possible.",
+      "icon": "independent-journalism.png"
     }
   ]
 }
