@@ -23,10 +23,20 @@ const Home = () => {
     <Container>
       <ScrollToTop />
 
-      <button>
-      <a href="https://vimeo.com/524785746" target="_blank"><p>current app development status |{">"} video</p></a>
-      </button>
-
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
+      <p>
+        <u>
+        Current development status:
+        </u>
+      </p>
+      <a href="https://vimeo.com/526183104" target="_blank" rel="noreferer"><p>|{">"} (silent) video demo</p></a>
+      <a href="https://soundcloud.com/atyilmaz/expression-of-demand-in-action-audio-record" target="_blank" rel="noreferer"><p>|{">"} voice record for it</p></a>
+      
+      
       <ContentBlock
         type="right"
         first="true"

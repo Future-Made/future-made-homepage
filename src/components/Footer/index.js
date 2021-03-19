@@ -47,10 +47,11 @@ const Footer = ({ t }) => {
                 <br></br>
                 <br></br>                  
 
-                <a href="https://vimeo.com/524785746"
-                  target="_blank" rel="noreferer">
+                <a href="https://vimeo.com/526183104" target="_blank" rel="noreferer">
                     <strong>|{">"}</strong> first app's status (video) </a>
                 <br></br>
+                <a href="https://soundcloud.com/atyilmaz/expression-of-demand-in-action-audio-record" target="_blank" rel="noreferer">|{">"} voice record for it.</a>
+
                 
                 <a href="https://github.com/future-made"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> humbly, open sourcing everything</a>
@@ -232,7 +233,7 @@ const Footer = ({ t }) => {
                     </a>
                      {", "}developed by
                     <a href="https://claudio-ortolina.org/" target="_blank" rel="noreferer">
-                      <strong> Claudio Ortolina</strong>
+                      <strong> Claudio Ortolina -- @cloud8421</strong>
                       </a> 
                   <br></br>
                   ++
