@@ -48,16 +48,18 @@ const Footer = ({ t }) => {
                 <br></br>                  
 
                 <a href="https://vimeo.com/526183104" target="_blank" rel="noreferer">
-                    <strong>|{">"}</strong> first app's status (video) </a>
+                    <strong>|{">"}</strong> event app's status (video) </a>
                 <br></br>
                 <a href="https://soundcloud.com/atyilmaz/expression-of-demand-in-action-audio-record" target="_blank" rel="noreferer">|{">"} voice record for it.</a>
 
-                
+                <br></br>
+                <br></br>
+
                 <a href="https://github.com/future-made"
                   target="_blank" rel="noreferrer"><strong>|{">"}</strong> humbly, open sourcing everything</a>
                 <br></br>
                 <a href="https://github.com/orgs/Future-Made/projects/1"
-                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> project status and cooperations</a>
+                  target="_blank" rel="noreferrer"><strong>|{">"}</strong> event app status and future coops</a>
                 <br></br>
                 <br></br>
                
