@@ -100,9 +100,9 @@ const Home = () => {
       /> */}
 
     <h3>Collaborators of now</h3> 
-  
-    <br></br>
-      <h4> and the future </h4>
+    <h3>of now</h3> 
+    <h3> and the future |{">"} </h3>
+
     <br></br>
         <strong>we are shuffled</strong>, 
         <br></br>
@@ -115,14 +115,19 @@ const Home = () => {
              <u> love,</u>
            </strong>
          </a>
-         
+         <br></br>
+
+         <a href="https://www.youtube.com/watch?v=-EzURpTF5c8" target="_blank" rel="noreferer">
+         <strong> <u>time</u></strong>
+         </a>
          
          <br></br>
-         <strong>time</strong> is the only <br></br>
-        authority
-        <br></br> <br></br>
+         is the only authority
         
-        <strong> around here.</strong> <br></br><br></br>
+         <br></br>
+         <strong> around here.</strong>
+         <br></br>
+         <br></br>
   <Members/>
     </Container>
   );
