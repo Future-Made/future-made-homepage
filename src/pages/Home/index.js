@@ -106,9 +106,8 @@ const Home = () => {
         id="contact"
       /> */}
 
-    <h3>Collaborators of now</h3> 
-    <h3>of now</h3> 
-    <h3> and the future |{">"} </h3>
+    <h3>Collaborators of </h3> 
+    <h3> now and the future |{">"} </h3>
 
     <br></br>
         <strong>we are shuffled</strong>, 
