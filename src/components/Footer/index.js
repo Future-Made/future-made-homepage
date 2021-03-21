@@ -86,7 +86,7 @@ const Footer = ({ t }) => {
                   TODO 2: add to top/include where needed */}
                 <a href="https://offsetmovement.org"
                   target="_blank" rel="noreferrer"> 
-                  <strong>     {"<"}|...</strong> <strong>|{">"}    </strong> 
+                  <strong>     {"<"}|+</strong> <strong>|{">"}    </strong> 
                   <br></br>
                   non-perfectionist manifest</a>
                   <br></br>
