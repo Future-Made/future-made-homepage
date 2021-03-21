@@ -26,12 +26,19 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
+  
       
       <p>
-        <u>
-        Current development status:
+
+      <strong>
+      <u>
+      "An expected journey: building bridges with artists, future is made here"
         </u>
+      </strong>
+      </p>
+      <br></br>
+      <p>
+        Current development status:
       </p>
       <a href="https://vimeo.com/526183104" target="_blank" rel="noreferer"><p>|{">"} (silent) video demo</p></a>
       <a href="https://soundcloud.com/atyilmaz/expression-of-demand-in-action-audio-record" target="_blank" rel="noreferer"><p>|{">"} voice record for it</p></a>
