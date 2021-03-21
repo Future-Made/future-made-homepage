@@ -178,7 +178,7 @@ const Footer = ({ t }) => {
                       (intentions over impressions)
                     <br></br>
                     <br></br>
-                    <strong>|{">"}</strong> demand-orientation <br></br> in the goods and services<br></br>
+                    <strong>|{">"}</strong> demand-orientation <br></br> in the goods and commodities<br></br>
                     aka. less “over-production”
                     (demand over supply)
               
