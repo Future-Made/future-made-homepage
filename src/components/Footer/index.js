@@ -260,19 +260,8 @@ const Footer = ({ t }) => {
 
                 
                 <S.Para>decentralised @ planet Earth</S.Para>
-                <br></br>
 
-                until then,
-
-                for demand-event-upon-stream concept,
-
-                <button>
-                  <a href="https://community.spotify.com/t5/Live-Ideas/Demand-Event-Performance-Upon-Stream-Listen/idi-p/5096642"
-                     target="_blank" rel="noreferrer">
-                    you can also vote for Spotify campaign for impact</a>
-                  
-                  </button>
-                  <br></br> 
+          
                   <br></br> 
                 
                 <button>
