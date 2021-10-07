@@ -5,7 +5,6 @@ import { withTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
 
 import * as S from "./styles";
-import { Route } from "react-router-dom";
 
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Container = lazy(() => import("../../common/Container"));

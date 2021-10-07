@@ -27,17 +27,11 @@ const Home = () => {
       <br></br>
       <br></br>
   
-      
-      <p>
-
-      <strong>
-      <u>
-      "An expected journey: building bridges with artists, future is being made here."
-        </u>
+     
 
     <br></br>
     <br></br>
-        Expression of Demand is launched at:
+        {/* Expression of Demand is launched at:
       </strong>
       </p> 
 
@@ -45,7 +39,7 @@ const Home = () => {
           <a href="https://collabomo.de" target="_blank" rel="noreferer">https://collabomo.de</a>
         </strong>
 
-      <br></br>
+      <br></br> */}
           
    
       {/* <a href="https://vimeo.com/526183104" target="_blank" rel="noreferer"><p>|{">"} (silent) video demo</p></a>
